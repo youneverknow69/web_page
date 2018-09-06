@@ -1,0 +1,100 @@
+ body{
+     background-color: #f1f1f0
+ }
+ 
+ header{
+    background: url(images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    }
+
+    
+.section{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    }
+
+.project{
+    background-color: white;
+    border: 1px solid #d8d8d8;
+    border-radius: 15px;
+    box-shadow: 0px 0px .7px black;
+    margin-bottom: 5%;
+}
+
+.project img{
+    max-height: 100%;
+    max-width: 100%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 4%;
+    float: right;
+}
+
+
+.tabs .indicator{
+    background-color: #1a237e;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background: transparent;
+}
+
+.tabs{
+    background-color: #f1f1f0;
+}
+
+.bodyIcons {
+    font-size:36px;
+}
+
+/* @media screen and (max-width: 1140px){
+    #logo{
+        font-size: 24px;
+    }
+    .project, p{
+        float: left;
+    }
+    .project img{
+        margin-right: 2.3%;
+    }
+} */
+
+@media screen and (max-width: 671px){
+.project, h5, h6, p{
+        margin-left: 1.2%;
+    }
+.project img{
+    margin-right: 2.3%;
+}
+
+.h5header{
+    padding-top: 150px;
+   }
+
+ @media screen and (max-width: 670px){
+    header{
+    min-height: 250px;
+    }
+
+ #logo{
+    font-size: inherit;
+    }
+
+.hideMobile{
+    display:none;
+    }
+.project, p {
+        float: left;
+    }
+.project, h5, h6, p{
+    margin-left: 1.5%;
+}
+.h5header{
+    padding-top: 140px;
+   }
+.project img{
+    margin-right: 2.3%;
+}
+}
