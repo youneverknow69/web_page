@@ -24,7 +24,7 @@
 }
 
 .project img{
-    max-height: 100%;
+    max-height: 60%;
     max-width: 100%;
     padding-top: 2%;
     padding-bottom: 5%;
@@ -59,7 +59,7 @@
     .project img{
         margin-right: 2.3%;
     }
-} */
+}*/ 
 
 @media screen and (max-width: 671px){
 .project, h5, h6, p{
@@ -96,5 +96,4 @@
    }
 .project img{
     margin-right: 2.3%;
-}
 }
